@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="content">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -14,8 +14,13 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('Você ta logado!') }}
                 </div>
+
+            </div>
+
+            <div class="links">
+                <a href='./submit'>adicionar um link</a>
             </div>
         </div>
     </div>

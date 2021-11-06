@@ -23,7 +23,7 @@ pra desligar a máquina virtual:
 vagrant halt
 ```
 
-O link de testes pro site é [manchild.test](http://manchild.test)
+O link de testes pro site é [manchild.test](http://manchild.test), [/submit](http://manchild.test/submit) pra postar (links???) por enquanto.
 
 ### Laravel
 
