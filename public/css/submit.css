@@ -1,0 +1,35 @@
+@import 'variables';
+
+textarea {
+  resize: vertical;
+  min-height:50px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 8px 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type=submit] {
+  background-color: #00141d;
+  color: #52908b;
+  padding: 12px 16px;
+  margin: 8px auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #52908b;
+  color: #00141d;
+}
+
+.seguradordeBotao {
+  text-align: center;
+}

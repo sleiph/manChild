@@ -1,6 +1,6 @@
 html, body {
-  background-color: #fff;
-  color: #636b6f;
+  background-color: #52908b;
+  color: #00141d;
   font-family: 'Ubuntu Mono', monospace;
   font-weight: 200;
   height: 100vh;
@@ -42,7 +42,7 @@ html, body {
 }
 
 .links > a {
-  color: #636b6f;
+  color: #00141d;
   padding: 0 25px;
   font-size: 13px;
   font-weight: 600;

@@ -25,12 +25,21 @@ vagrant halt
 
 O link de testes pro site é [manchild.test](http://manchild.test), [/submit](http://manchild.test/submit) pra postar (links???) por enquanto.
 
-### Laravel
+### mySQL
 
-pra migrar o banco de dados:
+Antes de entrar no site tem que criar o banco de dados:
+```
+mysql -u root -p
+mysql> create database manchild;
+mysql> exit
+```
+
+e depois migrar as tabelas do projeto:
 ```php
 php artisan migrate
 ```
+
+### estilos
 
 pra compilar o CSS:
 ```shell
@@ -42,4 +51,11 @@ npm run dev
 
 ## Fazer
 
-- Tudo
+-Bichinho
+  - Alimentar
+  - Educar
+  - Dar banho
+  - Brincar ([spookware](https://papercookies.itch.io/spookware-fullversion))
+  - Cagar
+  - Dormir
+  - Morrer

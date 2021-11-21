@@ -19,6 +19,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/home.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/submit.css') }}" rel="stylesheet">
 </head>
 <body>
     <div class="flex-center position-ref full-height">
